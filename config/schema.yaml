@@ -1,0 +1,72 @@
+columns:
+  - Patient_ID : int
+  - Age : int
+  - Gender : int
+  - Education_level : int 
+  - Marital_Status : int
+  - Occupation : int
+  - Income_level : int
+  - Living_Area : int
+  - Diagnosis : int
+  - Disease_Duration : int
+  - Hospitalizations : int
+  - Family_History : int
+  - Substance_Use : int
+  - Suicide_Attempt : int
+  - Positive_Symptom_Score : int
+  - Negative_Symptom_Score : int
+  - GAF_Score : int
+  - Social_Support : int
+  - Stress_Factors : int
+  - Medication_Adherence : int
+
+numerical_columns:
+  - Disease_Duration
+  - Hospitalizations
+  - Positive_Symptom_Score
+  - Negative_Symptom_Score
+  - GAF_Score
+
+categorical_columns:
+  - Patient_ID
+  - Age
+  - Gender
+  - Education_level
+  - Marital_Status
+  - Occupation
+  - Income_level
+  - Living_Area
+  - Diagnosis
+  - Family_History
+  - Substance_Use
+  - Suicide_Attempt
+  - Social_Support
+  - Stress_Factors
+  - Medication_Adherence
+
+drop_columns:
+  - Patient_ID
+  - Age
+  - Gender
+  - Education_level
+  - Marital_Status
+  - Occupation
+  - Income_level
+  - Living_Area
+  - Social_Support
+  - Stress_Factors
+
+# for data transformation
+num_features:
+  - Disease_Duration
+  - Hospitalizations
+  - Positive_Symptom_Score
+  - Negative_Symptom_Score
+  - GAF_Score
+
+transform_columns:
+  - Disease_Duration
+  - Hospitalizations
+  - Positive_Symptom_Score
+  - Negative_Symptom_Score
+  - GAF_Score
